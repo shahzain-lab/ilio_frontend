@@ -80,7 +80,7 @@ export const StyledLogo = styled.div`
   @media only screen 
     and (min-device-width: 712px) 
     and (max-device-width: 912px) {
-    margin-right: 78px;
+    margin-right: 62px;
   }
 
   /* (IPads/Tablets) Portrait and Landscape */
@@ -88,7 +88,7 @@ export const StyledLogo = styled.div`
     and (min-device-width: 912px) 
     and (max-device-width: 1216px) 
     and (-webkit-min-device-pixel-ratio: 1) {
-    margin-right: 90px;
+    margin-right: 80px;
   }
   
 `
