@@ -11,7 +11,7 @@ const AppHead = ({ title, desc='Content Page' }: Props) => {
     <Head>
     <title>{ title }</title>
     <meta name="description" content={desc} />
-    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" href="/favicon.png" />
    </Head>
   )
 }

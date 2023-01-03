@@ -2,9 +2,11 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import React from 'react'
+// redux
 import { useDispatch, useSelector } from 'react-redux'
 import { handleOpen } from '../state/features/NavModelSlice'
 import { RootState } from '../state/store/store'
+// styles
 import { 
    StyledLinks,
    StyledUserAvatar,
@@ -18,6 +20,7 @@ import {
    StyledPlusTitle,
    StyledPlusIcon,
    StyledMenuAvatar} from '../styles/layout/Navbar.styled'
+// native components
 import NavModel from './NavModel'
 
 const Navbar = () => {
@@ -27,7 +30,6 @@ const Navbar = () => {
 
   return (
     <>
-    
     <StyledNavbar>
       <StyledLogo>
         {/* App logo */}
@@ -117,10 +119,10 @@ const Navbar = () => {
         </StyledNavProps>
     </StyledNavbar>
     
-    {/* open menu model */}
-    {isOpen && (
-       <NavModel />
-    )}
+      {/* open menu model */}
+      {isOpen && (
+         <NavModel />
+      )}
     </>
   )
 }

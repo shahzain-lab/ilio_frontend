@@ -1,7 +1,16 @@
 import Image from 'next/image';
 import React, { useState } from 'react'
+// styles
 import { 
-  StyledCard, StyledDesc, StyledH3, StyledH4, StyledImage, StyledPrice, StyledPriceBox, StyledTitle, StyledTitleBox } from './HomeComponents.styles';
+  StyledCard,
+  StyledDesc,
+  StyledH3,
+  StyledH4,
+  StyledImage,
+  StyledPrice,
+  StyledPriceBox,
+  StyledTitle,
+  StyledTitleBox } from './HomeComponents.styles';
 
 interface IContent {
   image: string;
@@ -20,6 +29,7 @@ interface Props {
 const ContentCard = ({ content }: Props) => {
   const [likes, setLikes] = useState<string[]>([])
 
+  // toggle like button handling
   const toggleLike = (id: string) => {
     let likeItems: string[] = []
     if(likes.includes(id)) {

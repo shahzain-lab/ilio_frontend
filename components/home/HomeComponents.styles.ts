@@ -38,7 +38,7 @@ export const StyledCards = styled.div`
   /* (IPads/Tablets) Portrait and Landscape */
   @media only screen 
     and (min-device-width: 912px) 
-    and (max-device-width: 1164px) 
+    and (max-device-width: 1216px) 
     and (-webkit-min-device-pixel-ratio: 1) {
      grid-template-columns: repeat(4, 1fr);
   }

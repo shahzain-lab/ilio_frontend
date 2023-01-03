@@ -1,6 +1,7 @@
 import React from 'react'
 import { contents } from '../../model/contents'
 import ContentCard from './ContentCard'
+// styles
 import { StyledCards } from './HomeComponents.styles'
 
 const ContentsCards = () => {

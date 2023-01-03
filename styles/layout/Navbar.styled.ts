@@ -39,7 +39,7 @@ export const StyledNavbar = styled.div`
   /* (IPads/Tablets) Portrait and Landscape */
   @media only screen 
     and (min-device-width: 912px) 
-    and (max-device-width: 1164px) 
+    and (max-device-width: 1216px) 
     and (-webkit-min-device-pixel-ratio: 1) {
       padding: 0 69px;
   }
@@ -86,7 +86,7 @@ export const StyledLogo = styled.div`
   /* (IPads/Tablets) Portrait and Landscape */
   @media only screen 
     and (min-device-width: 912px) 
-    and (max-device-width: 1164px) 
+    and (max-device-width: 1216px) 
     and (-webkit-min-device-pixel-ratio: 1) {
     margin-right: 90px;
   }
@@ -116,7 +116,7 @@ export const StyledNavProps = styled.div`
 `
 export const StyledCreatePost = styled.div`
   border: 1px solid #EEF1F6;
-  padding-right: 24px;
+  margin-right: 24px;
   display: flex;
   align-items: center;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));

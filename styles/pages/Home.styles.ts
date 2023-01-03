@@ -35,7 +35,7 @@ padding: 0 97px;
   /* (IPads/Tablets) Portrait and Landscape */
   @media only screen 
     and (min-device-width: 912px) 
-    and (max-device-width: 1164px) 
+    and (max-device-width: 1216px) 
     and (-webkit-min-device-pixel-ratio: 1) {
       padding: 0 69px;
   }

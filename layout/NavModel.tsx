@@ -1,8 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+// redux
 import { useDispatch } from 'react-redux'
 import { handleClose } from '../state/features/NavModelSlice'
+// styles
 import { 
     StyledContainer,
     StyledLink,
